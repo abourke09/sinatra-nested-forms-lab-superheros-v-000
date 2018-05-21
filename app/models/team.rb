@@ -1,11 +1,11 @@
 class Team
-  attr_reader :name, :motto
+  attr_reader :name, :moto
 
   @@team_array = []
 
   def initialize(params)
     @name = params[:name]
-    @moto = params[:motto]
+    @moto = params[:moto]
     @@team_array << self
   end
 
